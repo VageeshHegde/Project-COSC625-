@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sports Stattistics Login Page</title>
+  </head>
+  <body>
+    <div class="backgroundIMG">
+      <div class="container" id="container">
+        <div class="form-container sign-up">
+          <form>
+            <h1>Create Account</h1>
+            <span> Sign up with your email</span>
+            <input type="text" name="name" id="name" placeholder="Name" />
+            <input type="email" name="email" id="email" placeholder="Email" />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+            />
+            <button>Sign Up</button>
+
+            <div class="social-icons">
+              <a href="#" class="icon">
+                <i
+                  class="fa-brands fa-facebook"
+                  style="color: rgb(40, 40, 146)"
+                ></i>
+              </a>
+              <a href="#" class="icon">
+                <i
+                  class="fa-brands fa-instagram"
+                  style="color: rgb(237, 20, 57)"
+                ></i>
+              </a>
+              <a href="#" class="icon">
+                <i class="fa-brands fa-x-twitter" style="color: black"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+
+        <div class="form-container sign-in">
+          <form>
+            <h1>Log In</h1>
+            <span> Log in with your email</span>
+            <input type="email" name="email" id="email" placeholder="Email" />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+            />
+            <a href="#">Forget Your Password?</a>
+            <button>Sign In</button>
+
+            <div class="social-icons">
+              <a href="#" class="icon">
+                <i
+                  class="fa-brands fa-facebook"
+                  style="color: rgb(40, 40, 146)"
+                ></i>
+              </a>
+              <a href="#" class="icon">
+                <i
+                  class="fa-brands fa-instagram"
+                  style="color: rgb(237, 20, 57)"
+                ></i>
+              </a>
+              <a href="#" class="icon">
+                <i class="fa-brands fa-x-twitter" style="color: black"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+
+        <div class="halfmenu-container">
+          <div class="toggle">
+            <div class="toggle-panel to-right">
+              <h1>Welcome to Score Insights</h1>
+              <h3>Come be apart of the team!</h3>
+              <p>Access premium features by creating an account</p>
+              <button class="hidden" id="register" type="submit">
+                CREATE AN ACCOUNT
+              </button>
+            </div>
+
+            <div class="toggle-panel to-left">
+              <h1>Welcome Back!</h1>
+              <h4>Coach: "Cmon! You're up, get back in the game"</h4>
+              <p>Enter your credentials to access your personalized settings</p>
+              <button class="hidden" id="login" type="submit">Log In</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
