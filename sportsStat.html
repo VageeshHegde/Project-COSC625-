@@ -1,38 +1,203 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link rel="stylesheet" type="text/css" href="sportsStat.css">
-</head>
-<body>
-<header>
-    <div class="navbar1">
+  <head>
+    <link rel="stylesheet" type="text/css" href="sportsStat.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar1" id="backgroundElement1">
         <a href="">Help</a>
-        <a href="login.html">Login       |</a>
-        <a href="login.html">Create Account       |</a>
-    </div>
-    <div class="navbar2">
+        <a href="login.html">Login |</a>
+        <a href="login.html">Create Account |</a>
+      </div>
+      <div class="navbar2" id="backgroundElement2">
         <p>ScoreInsights.com</p>
         <form>
-            <input type="text" placeholder="Search">
-            <button type="submit">Search</button>
+          <input type="text" placeholder="Search" />
+          <button type="submit">Search</button>
         </form>
-    </div>
-  <div class="navbar3">
-    <a href="#home">NBA</a>
-    <a href="#home">Home</a>
-    <a href="#home">About Us</a>
-    <a href="#leaders">Leaders</a>
-    <a href="#seasons">Seasons</a>
-    <a href="#games">Games</a>
-    <a href="#teams">Teams</a>
-    <a href="#players">Players</a>
-    <a href="#news">News</a>
-  </div>
-   <div class="newsframe">
-      <iframe
-        src="https://rss.app/embed/v1/wall/tywNsW1rmFujWEJD"
-        frameborder="0"
-      ></iframe>
-</header>
-</body>
+      </div>
+      <div class="navbar3" id="backgroundElement3">
+        <a href="#home">NBA</a>
+        <a href="#home">Home</a>
+        <a href="#home">About Us</a>
+        <a href="#leaders">Leaders</a>
+        <a href="#seasons">Seasons</a>
+        <a href="#games">Games</a>
+        <a href="#teams">Teams</a>
+        <a href="#players">Players</a>
+        <a href="#news">News</a>
+      </div>
+
+      <div id="hoverElement1">
+        <button>Change Top NavBar Color</button>
+      </div>
+      <div id="additionalInfo1" style="display: none">
+        <button onclick="changeColor('HawksRed','backgroundElement1')">
+          Hawks Red
+        </button>
+        <button onclick="changeColor('CelticsGreen','backgroundElement1')">
+          Celtics Green
+        </button>
+        <button onclick="changeColor('HornetsPurple','backgroundElement1')">
+          HornetsPurple
+        </button>
+        <button onclick="changeColor('BullsRed','backgroundElement1')">
+          BullsRed
+        </button>
+        <button onclick="changeColor('CavaliersWine','backgroundElement1')">
+          CavaliersWine
+        </button>
+        <button onclick="changeColor('MavsRoyalBlue','backgroundElement1')">
+          MavsRoyalBlue
+        </button>
+        <button onclick="changeColor('NuggetsBlue','backgroundElement1')">
+          NuggetsBlue
+        </button>
+        <button onclick="changeColor('Red','backgroundElement1')">Red</button>
+        <button onclick="changeColor('PacerBlue','backgroundElement1')">
+          PacerBlue
+        </button>
+        <button onclick="changeColor('LakerPurple','backgroundElement1')">
+          LakerPurple
+        </button>
+        <button onclick="changeColor('Blue','backgroundElement1')">Blue</button>
+        <button onclick="changeColor('BucksGreen','backgroundElement1')">
+          BucksGreen
+        </button>
+        <button onclick="changeColor('WolvesBlue','backgroundElement1')">
+          WolvesBlue
+        </button>
+        <button onclick="changeColor('PelicanNavy','backgroundElement1')">
+          PelicanNavy
+        </button>
+        <button onclick="changeColor('KnicksBlue','backgroundElement1')">
+          KnicksBlue
+        </button>
+        <button onclick="changeColor('ThunderBlue','backgroundElement1')">
+          ThunderBlue
+        </button>
+        <button onclick="changeColor('MagicBlue','backgroundElement1')">
+          MagicBlue
+        </button>
+        <button onclick="changeColor('Silver','backgroundElement1')">
+          Silver
+        </button>
+      </div>
+
+      <div id="hoverElement2">
+        <button>Change Second From Top NavBar Color</button>
+      </div>
+      <div id="additionalInfo2" style="display: none">
+        <button onclick="changeColor('HawksRed','backgroundElement2')">
+          Hawks Red
+        </button>
+        <button onclick="changeColor('CelticsGreen','backgroundElement2')">
+          Celtics Green
+        </button>
+        <button onclick="changeColor('HornetsPurple','backgroundElement2')">
+          HornetsPurple
+        </button>
+        <button onclick="changeColor('BullsRed','backgroundElement2')">
+          BullsRed
+        </button>
+        <button onclick="changeColor('CavaliersWine','backgroundElement2')">
+          CavaliersWine
+        </button>
+        <button onclick="changeColor('MavsRoyalBlue','backgroundElement2')">
+          MavsRoyalBlue
+        </button>
+        <button onclick="changeColor('NuggetsBlue','backgroundElement2')">
+          NuggetsBlue
+        </button>
+        <button onclick="changeColor('Red','backgroundElement2')">Red</button>
+        <button onclick="changeColor('PacerBlue','backgroundElement2')">
+          PacerBlue
+        </button>
+        <button onclick="changeColor('LakerPurple','backgroundElement2')">
+          LakerPurple
+        </button>
+        <button onclick="changeColor('Blue','backgroundElement2')">Blue</button>
+        <button onclick="changeColor('BucksGreen','backgroundElement2')">
+          BucksGreen
+        </button>
+        <button onclick="changeColor('WolvesBlue','backgroundElement2')">
+          WolvesBlue
+        </button>
+        <button onclick="changeColor('PelicanNavy','backgroundElement2')">
+          PelicanNavy
+        </button>
+        <button onclick="changeColor('KnicksBlue','backgroundElement2')">
+          KnicksBlue
+        </button>
+        <button onclick="changeColor('ThunderBlue','backgroundElement2')">
+          ThunderBlue
+        </button>
+        <button onclick="changeColor('MagicBlue','backgroundElement2')">
+          MagicBlue
+        </button>
+        <button onclick="changeColor('Silver','backgroundElement2')">
+          Silver
+        </button>
+      </div>
+
+      <div id="hoverElement3">
+        <button>Change Main Navbar Color</button>
+      </div>
+      <div id="additionalInfo3" style="display: none">
+        <button onclick="changeColor('HawksRed','backgroundElement3')">
+          Hawks Red
+        </button>
+        <button onclick="changeColor('CelticsGreen','backgroundElement3')">
+          Celtics Green
+        </button>
+        <button onclick="changeColor('HornetsPurple','backgroundElement3')">
+          HornetsPurple
+        </button>
+        <button onclick="changeColor('BullsRed','backgroundElement3')">
+          BullsRed
+        </button>
+        <button onclick="changeColor('CavaliersWine','backgroundElement3')">
+          CavaliersWine
+        </button>
+        <button onclick="changeColor('MavsRoyalBlue','backgroundElement3')">
+          MavsRoyalBlue
+        </button>
+        <button onclick="changeColor('NuggetsBlue','backgroundElement3')">
+          NuggetsBlue
+        </button>
+        <button onclick="changeColor('Red','backgroundElement3')">Red</button>
+        <button onclick="changeColor('PacerBlue','backgroundElement3')">
+          PacerBlue
+        </button>
+        <button onclick="changeColor('LakerPurple','backgroundElement3')">
+          LakerPurple
+        </button>
+        <button onclick="changeColor('Blue','backgroundElement3')">Blue</button>
+        <button onclick="changeColor('BucksGreen','backgroundElement3')">
+          BucksGreen
+        </button>
+        <button onclick="changeColor('WolvesBlue','backgroundElement3')">
+          WolvesBlue
+        </button>
+        <button onclick="changeColor('PelicanNavy','backgroundElement3')">
+          PelicanNavy
+        </button>
+        <button onclick="changeColor('KnicksBlue','backgroundElement3')">
+          KnicksBlue
+        </button>
+        <button onclick="changeColor('ThunderBlue','backgroundElement3')">
+          ThunderBlue
+        </button>
+        <button onclick="changeColor('MagicBlue','backgroundElement3')">
+          MagicBlue
+        </button>
+        <button onclick="changeColor('Silver','backgroundElement3')">
+          Silver
+        </button>
+      </div>
+
+      <script src="custom.js"></script>
+    </header>
+  </body>
 </html>
