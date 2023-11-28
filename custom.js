@@ -123,7 +123,7 @@ function hoverEffect(hoverID, addedInfo) {
     event.stopPropagation();
   });
 }
-
+hoverEffect("hoverElement0", "additionalInfo0");
 hoverEffect("hoverElement1", "additionalInfo1");
 hoverEffect("hoverElement2", "additionalInfo2");
 hoverEffect("hoverElement3", "additionalInfo3");
