@@ -1,0 +1,61 @@
+/* Include this in your CSS file to style the centered footer */
+
+footer {
+    background-color: rgba(53, 12, 12, 1);
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center; /* Center the content */
+}
+
+.quick-links,
+.contact-us {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 80px; /* Add some spacing between sections */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.quick-links a {
+    color: #fff;
+    text-decoration: none; /* Remove underline */
+}
+
+.quick-links a:hover{
+    background-color: #0056b3;
+}
+
+/* Style for the links in the Contact Us section */
+.contact-us a {
+    color: #fff;
+    text-decoration: none; /* Remove underline */
+}
+
+.contact-us a:hover{
+    background-color: #0056b3;
+}
+
+.copyright {
+    margin-top: 20px;
+    text-align: center;
+}
+
+h3{
+    text-decoration: underline;
+}

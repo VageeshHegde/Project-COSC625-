@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hotel Booking</title>
+</head>
+<body>
+    <header>
+        <h1>Hotel Booking</h1>
+    </header>
+    <main>
+        <section id="hotels">
+            <h2>Available Hotels</h2>
+            <ul>
+                <li>
+                    <h3>Hotel A</h3>
+                    <p>City 1</p>
+                    <p>Price: $100 per night</p>
+                    <p>Availability: 5 rooms</p>
+                    <button class="book-button" data-hotel="Hotel A">Book Now</button>
+                </li>
+                <li>
+                    <h3>Hotel B</h3>
+                    <p>City 2</p>
+                    <p>Price: $150 per night</p>
+                    <p>Availability: 3 rooms</p>
+                    <button class="book-button" data-hotel="Hotel B">Book Now</button>
+                </li>
+            </ul>
+        </section>
+        <section id="booking">
+            <h2>Booking Details</h2>
+            <p id="selected-hotel"></p>
+            <form id="booking-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="nights">Number of Nights:</label>
+                <input type="number" id="nights" required>
+                <button type="submit">Confirm Booking</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
