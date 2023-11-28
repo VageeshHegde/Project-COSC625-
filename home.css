@@ -1,0 +1,13 @@
+.heading{
+    background-color: brown;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+h1{
+    float: right;
+}
+
+img{
+    float: left;
+}

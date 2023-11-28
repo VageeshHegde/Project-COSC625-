@@ -15,14 +15,15 @@
     rgba(194, 103, 30, 1) 68%,
     rgba(0, 212, 255, 1) 100%
   );
-  background-image: url("basketball.jpg");
+  background-image: url("bballPlayer.jpg");
+  display: flex;
   background-size: cover;
-  background-blend-mode: multiply;
-  padding-top: 100px;
-  padding-bottom: 150px;
+  background-position: center;
+  padding-top: 100%;
+  padding-bottom: 100%;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
-  height: 100vh;
 }
 
 body {
@@ -51,7 +52,47 @@ body {
   min-height: 480px;
 }
 
+@media (1700px <= width <= 3000px) {
+  .container {
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px white;
+    position: relative;
+    overflow: hidden;
+    width: 1000px;
+    max-width: 100%;
+    min-height: 700px;
+  }
+}
+
+@media (300px <= width <= 400px) {
+  .container h1 {
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.11px;
+    margin: 20px 0;
+  }
+}
+
 @media (300px <= width <= 900px) {
+  .backgroundIMG {
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 5%,
+      rgba(121, 61, 9, 1) 35%,
+      rgba(194, 103, 30, 1) 68%,
+      rgba(0, 212, 255, 1) 100%
+    );
+    background-image: url("bballPlayer.jpg");
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100%;
+    padding-bottom: 60%;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .container p {
@@ -87,6 +128,17 @@ body {
   flex-direction: column;
   padding: 0 40px;
   height: 100%;
+}
+
+.newsframe {
+  width: 60%; /* Adjust the width as needed */
+  margin: 0 auto;
+}
+.newsframe iframe {
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (300px <= width <= 900px) {
@@ -190,11 +242,7 @@ body {
 .toggle {
   background-color: orange;
   height: 100%;
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 5%,
-    rgba(194, 103, 30, 1) 68%
-  );
+  background: linear-gradient(90deg, rgb(87, 83, 83) 5%, rgba(53, 12, 12, 1));
   color: white;
   position: relative;
   left: -100%;

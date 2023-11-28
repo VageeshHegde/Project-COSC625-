@@ -18,21 +18,16 @@
         </form>
     </div>
   <div class="navbar3">
-    <a href="#home">NBA</a>
-    <a href="#home">Home</a>
+    <a href="Home.php">NBA</a>
+    <a href="Home.php">Home</a>
     <a href="#home">About Us</a>
     <a href="#leaders">Leaders</a>
     <a href="#seasons">Seasons</a>
     <a href="#games">Games</a>
     <a href="#teams">Teams</a>
     <a href="#players">Players</a>
-    <a href="#news">News</a>
+    <a href="News.php">News</a>
   </div>
-   <div class="newsframe">
-      <iframe
-        src="https://rss.app/embed/v1/wall/tywNsW1rmFujWEJD"
-        frameborder="0"
-      ></iframe>
 </header>
 </body>
 </html>
