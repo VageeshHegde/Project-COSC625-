@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php include 'logout.php'; ?>
-    <h1>News <?php if (isset($_SESSION['email'])) {echo " {$_SESSION['email']} "; } ?></h1>
+    <h1 style="text-align: center;">News for "<?php if (isset($_SESSION['email'])) {echo " {$_SESSION['email']} "; } ?>"</h1>
     <div class="newsframe">
         <iframe
         src="https://rss.app/embed/v1/wall/tywNsW1rmFujWEJD"

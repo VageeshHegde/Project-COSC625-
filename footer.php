@@ -8,21 +8,6 @@
 </head>
 <body>
 <footer>
-    <div class="footer-container">
-        <div class="quick-links">
-            <h3>Quick Links</h3>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Teams</a></li>
-                <li><a href="#">About Us</a></li>
-            </ul>
-        </div>
-
-        <div class="contact-us">
-            <h3>Contact Us</h3>
-            <p><a href="">Click Here</a></p>
-        </div>
-    </div>
 
     <div class="copyright">
         <p>&copy; 2023 Sports Statistics. All rights reserved.</p>

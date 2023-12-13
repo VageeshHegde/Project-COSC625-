@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactUS.css">
+    <title>Contact Us Popup</title>
+</head>
+<body>
+
+    <!-- Button to open the contact form -->
+    <button id="openContactFormBtn">Contact Us</button>
+
+    <!-- The contact form popup -->
+    <div id="contactFormPopup" class="popup">
+        <div class="popup-content">
+            <span class="close" id="closeContactFormBtn">&times;</span>
+            <h2>Get in Touch</h2>
+            <form class="contactUS" action="#" method="post">
+                <!-- Your form fields go here -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <br>
+                <input id="send" type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+
+    <script src="contactUS.js"></script>
+</body>
+</html>

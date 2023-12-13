@@ -5,6 +5,7 @@
 </head>
 <body>
 <header>
+    <img src="logo.png" alt="Logo" width="90" height="90">
     <div class="navbar1">
         <a href="">Help</a>
         <a href="login.html">Login       |</a>

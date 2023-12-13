@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" type="text/css" href="settings.css">
+</head>
+<body>
+
+<div class="settings-icon" onclick="toggleSettingsMenu()">
+    <img src="settings-icon.png" alt="Settings Icon">
+</div>
+
+<div class="settings-menu" id="settingsMenu">
+    <h1>Settings</h1>
+
+    <div class="setting-option">
+        <label for="theme">Select Theme:</label>
+        <select id="theme" name="theme">
+            <option value="light">Light Theme</option>
+            <option value="dark">Dark Theme</option>
+        </select>
+    </div>
+
+    <div class="setting-option">
+        <label for="notifications">Receive Notifications:</label>
+        <input type="checkbox" id="notifications" name="notifications">
+    </div>
+
+    <div class="setting-option">
+        <label for="language">Select Language:</label>
+        <select id="language" name="language">
+            <option value="english">English</option>
+            <option value="spanish">Spanish</option>
+            <!-- Add more language options as needed -->
+        </select>
+    </div>
+
+    <button id="save-settings" onclick="saveSettings()">Save Settings</button>
+</div>
+
+<script src="Settings.js"></script>
+</body>
+</html>

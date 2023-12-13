@@ -25,6 +25,7 @@ if (isset($_GET['logout'])) {
 </head>
 <body>
 <header>
+<img src="logo.png" alt="Logo" width="70" height="81.2" style="background-color: rgba(53, 12, 12, 1); float: left; width=70px; height=96.5px;">
     <div class="navbar1">
         <a href="">Help</a>
         <?php if (isset($_SESSION['email'])) : ?>

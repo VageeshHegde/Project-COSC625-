@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Styles for the contact form popup */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.popup-content {
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Style for Contact us form */
+.contactUS{
+    text-align: left;
+    width: 100%;
+}
+
+.contactUS label{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.contactUS input, textarea{
+    border-radius: 5px;
+    width: 100%;
+    height: 20px;
+}
+
+#send{
+    margin-top: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
